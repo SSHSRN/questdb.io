@@ -150,7 +150,7 @@ const Community = () => {
                   joined our Community Slack
                 </a>
               </p>
-              <div className={`${paCss.custom_box} ${paCss.text_center}`}>
+              <div className={clsx(paCss.custom_box, paCss.text_center)}>
                 <p className={`${paCss.default_text} ${paCss.mb5}`}>
                   What you get:
                 </p>
