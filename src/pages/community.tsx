@@ -281,12 +281,10 @@ const Community = () => {
           </div>
         </div>
         <div className={paCss.card} style={{ margin: "auto" }}>
-          <p
-            className={`${paCss.default_text} ${paCss.mb5} ${paCss.text_center}`}
-          >
+          <p className={clsx(paCss.default_text, paCss.mb5, paCss.text_center)}>
             How can you claim swag?
           </p>
-          <p className={`${paCss.default_text} ${paCss.mb5}`}>
+          <p className={clsx(paCss.default_text, paCss.mb5)}>
             Fill out the{" "}
             <a
               className={paCss.link_item}
