@@ -261,8 +261,8 @@ const Community = () => {
               </a>
             </p>
 
-            <div className={`${paCss.custom_box} ${paCss.text_center}`}>
-              <p className={`${paCss.default_text} ${paCss.mb5}`}>
+            <div className={clsx(paCss.custom_box, paCss.text_center)}>
+              <p className={clsx(paCss.default_text, paCss.mb5)}>
                 What you get:
               </p>
               <p className={paCss.second_text}>
