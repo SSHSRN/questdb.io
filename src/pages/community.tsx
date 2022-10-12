@@ -280,7 +280,6 @@ const Community = () => {
             />
           </div>
         </div>
-        {/* <div className={paCss.card}> */}
         <div className={paCss.card} style={{ margin: "auto" }}>
           <p
             className={`${paCss.default_text} ${paCss.mb5} ${paCss.text_center}`}
